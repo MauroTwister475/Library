@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: wix;
+  src: url("../fonts/WixMadeforDisplay-Medium.ttf");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: light dark;
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  font-size: 60%;
+  font-family: wix;
+}
+
+#root{
+  width: 100vw;
+  height: 100vh; 
+}
+body{
+  background: rgb(242, 242, 242);
+}
+html, body, #root{
+  height: 100vh;
+}
+
+input, button, textarea{
+  font-weight: 700;
+  font-family: wix !important;;
+  outline: none;
+  border: none;
+  color: var(--color-gray);
+}
+a{
+  text-decoration: none;
+}
